@@ -1,0 +1,59 @@
+body,html {
+  height:100vh;
+  background-color:#222;
+}
+
+.container {
+  width:400px;
+  background-color:rgb(21, 0, 42);
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  border-radius:1rem;
+  padding:1rem;
+  margin:0 auto;
+  flex-wrap:wrap;
+  user-select:none;
+}
+
+.input {
+  height:60px;
+  width:360px;
+  background-color:#fff;
+  display:flex;
+  justify-content: flex-end;
+  align-items:center;
+  padding:1rem;
+  border-radius:1rem;
+  font-size:1.5rem;
+  margin-bottom:.5rem;
+}
+
+.fila {
+  display:flex;
+  width:360px;
+}
+
+.btn {
+  height:60px;
+  background-color:#fff;
+  font-size:1.5rem;
+  border:none;
+  flex:1;
+  margin:.2rem;
+  
+}
+
+.operator {
+  background-color:#222;
+  color:#fff;
+}
+
+.btn:hover {
+  cursor:pointer;
+  background-color:#ddd;
+}
+
+.operator:hover {
+  background-color:#444;
+}
